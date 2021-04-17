@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#fcc8aa, #fcc8aa);
+}
+
+select option {
+  background-color: #fdece8;
+}
+
+select option:hover{
+  background-color: red;
+}
+.login-box {
+  position: relative;
+  top: 50%;
+  width: 400px;
+  padding: 40px;
+  margin: 50px auto;
+  background: rgba(255,255,255,1);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 35px 15px rgba(0,255,255,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fcc8aa ;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+select {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  font-color: #fff;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+  background-color:transparent;
+}
